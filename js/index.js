@@ -1,7 +1,7 @@
 $("#buttonX").on("click", function(){
     $("#buttonX").hover(function(){
-        $(this).css("background-color", "yellow");
+        $(this).css("background-color", "green");
         }, function(){
-        $(this).css("background-color", "pink");
+        $(this).css("background-color", "purple");
       });
 });
