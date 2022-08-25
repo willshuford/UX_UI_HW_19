@@ -1,0 +1,96 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    }
+    
+    .logo {
+        width: 23%;
+        Padding: 1%;
+    }
+    
+    #nav {
+    width: 73%;
+    padding: 1%;
+    }
+    
+    
+    #ulone {
+        width: 50%;
+        margin-left: auto;
+    }
+    
+    .logo {
+        text-align: center;
+        }
+    
+    .heroImg {
+        height: 600px;
+        Padding: 25px;
+    }
+    
+    .content {
+        width: 500px;
+        margin: 0 auto;
+        }
+    
+    .footer {
+        background-color: #373738;
+        padding: 25px;
+        }
+    
+      #ultwo {
+        display: inline-block;
+        vertical-align: top;
+        padding: 25px;
+    }
+    .flexContainer {
+		display: flex;
+		flex-direction: column;
+		width: 33%;
+		margin: auto;
+		padding: 25px;
+		}
+
+.workGrid {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto;
+grid-template-areas: 
+“topRow topRow”
+“bottomRow bottomRow”
+;
+}
+
+.topRow {
+	grid-area: topRow;
+	}
+	
+.bottomRow {
+	grid-area: bottomRow;
+	}
+
+@media only screen and (max-width: 600px) {
+  .flexContainer {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: auto;
+		padding: 25px;
+		}
+.workGrid {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+grid-template-areas: 
+“topRow”
+“bottomRow”
+;
+}
+
+
+  }
+
+
+
+    
+    
